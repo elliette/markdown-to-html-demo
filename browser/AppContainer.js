@@ -20,12 +20,16 @@ export default class AppContainer extends Component {
               <li><a href="https://github.com/elliette/markdown-to-html-converter">github</a></li>
               <li><a href="https://www.npmjs.com/package/markdown-to-html-converter">npm</a></li>
             </ul>
+            <ul className="nav navbar-nav navbar-right">
+              <li><a href="https://github.com/elliette/">a project by elliott brooks</a></li> 
+            </ul> 
+
+            
           </div>
         </nav>
         <div className="container">
           <Form /> 
         </div>
-          <div className="footer"><strong>Markdown to HTML Converter</strong> by Elliott Brooks</div> 
       </div>
     );
   }
