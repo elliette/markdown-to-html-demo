@@ -2,12 +2,12 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AllPuppies from './AllPuppies';
+import AppContainer from './AppContainer';
 
 ReactDOM.render(
-  <div className="container flexbox-container">
-    <div className="jumbotron">
-      <AllPuppies />
+  <div>
+    <div>
+      <AppContainer />
     </div>
   </div>,
   document.getElementById('app')

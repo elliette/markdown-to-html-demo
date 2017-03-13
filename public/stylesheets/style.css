@@ -1,0 +1,119 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body, html {
+height: 100%;
+box-sizing: border-box;
+}
+
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: 'Roboto', sans-serif;
+  min-width: 100%;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Quattrocento', serif !important; 
+	text-align: center;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: #00897B;
+    border-color: #00897B;
+    border-radius: 0px;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: white; 
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #D1C4E9; 
+}
+
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 4px 30px 10px 4px;
+  margin-top: 25px; 
+  background-color: #4DB6AC;
+  color: white;
+  text-align: right;
+}
+
+.container {
+	min-width: 100%;
+
+}
+
+.boxparent {
+	margin-left: 7%; 
+}
+
+.formbox {
+	float: left;
+	width: 45%;
+
+}
+
+.textbox {
+	float: left;
+	width: 45%;
+
+}
+
+.html-box {
+	background-color: #E0F2F1; 
+	padding: 10px 20px 0px 20px;
+	margin-top: 15px;
+  border-color: #bdbdbd;
+  border-style: solid; 
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+
+textarea.form-control {
+    height: 550px;
+}
+
+button {
+	display: inline-block;
+	margin: 8px;
+}
+
+label.col-sm-offset-10 {
+	display: inline-block;
+	margin: 8px;
+	margin-left: 10px;
+}
+
+hr{
+   border: 1px solid #ccc;
+}
+
+
