@@ -18,8 +18,6 @@ export default class Form extends Component {
         this.handleChange = this.handleChange.bind(this); 
         this.handleToggle = this.handleToggle.bind(this); 
 
-        console.log("DEFAULT TEXT", defaultText);
-        console.log(this.state);  
     }
 
     handleToggle(){
@@ -41,7 +39,6 @@ export default class Form extends Component {
 
     render (){
 
-        console.log("STATE IS", this.state);
         var siblingComponent; 
 
         if (this.state.html){
