@@ -14,7 +14,7 @@ export default class AppContainer extends Component {
         <nav className="navbar navbar-default">
           <div className="container-fluid">
             <div className="navbar-header">
-              <Link className="navbar-brand" to="/">Markdown to HTML Converter</Link> 
+              <div className="navbar-brand" to="/">Markdown to HTML Converter Demo</div> 
             </div>
             <ul className="nav navbar-nav">
               <li><a href="https://github.com/elliette/markdown-to-html-converter">github</a></li>
